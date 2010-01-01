@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tudo sobre Google glass</title>
-    <link rel="stylesheet" href="_css/estilo.css"/>
-    <link rel="stylesheet" href="_css/form.css"/>
-    <script language="javascript" src="_javascript/funcoes.js"></script>
+    <link rel="stylesheet" href="css/estilo.css"/>
+    <link rel="stylesheet" href="css/form.css"/>
+    <script language="javascript" src="javascript/funcoes.js"></script>
     <script>
         function calc_total() {
             var qtd = parseInt (document.getElementById('cQtd').value);
@@ -25,15 +25,15 @@
     <h2>A revolução do Google está chegando</h2>
     </hgroup>
     
-    <img id="icone"src="_imagens/glass-oculos-preto-peq.png" alt="">
+    <img id="icone"src="imagens/glass-oculos-preto-peq.png" alt="" />
     <nav id="menu">
     <h1>Menu Principal</h1>
     <ol>
-        <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/contato.png')" ><a href="index.html">Home</a></li>
-        <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="specs.html">Especificações</a></li>
-        <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="fotos.html">Fotos</a></li>
-        <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="multimidia.html">Multimídia</a></li>
-        <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+        <li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/contato.png')" ><a href="index.html">Home</a></li>
+        <li onmouseover="mudaFoto('imagens/especificacoes.png')" onmouseout="mudaFoto('imagens/contato.png')"><a href="specs.html">Especificações</a></li>
+        <li onmouseover="mudaFoto('imagens/fotos.png')" onmouseout="mudaFoto('imagens/contato.png')"><a href="fotos.html">Fotos</a></li>
+        <li onmouseover="mudaFoto('imagens/multimidia.png')" onmouseout="mudaFoto('imagens/contato.png')"><a href="multimidia.html">Multimídia</a></li>
+        <li onmouseover="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/contato.png')"><a href="fale-conosco.html">Fale conosco</a></li>
     </ol>
     </nav>
     </header>
@@ -50,7 +50,7 @@
         </article>
 
     </section>
-    <form method="post" id="fContato" action="mailto:felomeno8@gmail.com" oninput="calc_total();">
+    <form method="post" id="fContato" action="mailto:fulano@gmail.com" oninput="calc_total();">
         <fieldset id="usuario">
            <legend>Identificação do Usuário</legend>
                 <p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"/></p>
@@ -105,7 +105,7 @@
                 <input type="text" name="tTot" id="cTot" placeholder="Total a pagar" readonly/></p>
         </fieldset>
 
-        <input type="image" name="tEnviar" src="_imagens/botao-enviar.png"/>
+        <input type="image" name="tEnviar" src="imagens/botao-enviar.png"/>
     </form>
 
 <footer id="rodape">
