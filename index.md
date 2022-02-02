@@ -5,9 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tudo sobre Google glass</title>
-        <link rel="stylesheet" href="/_css/estilo.css"/>
+        <link rel="stylesheet" href="/css/estilo.css"/>
     </head>
-    <script language="javascript" src="_javascript/funcoes.js"></script>
+    <script language="javascript" src="javascript/funcoes.js"></script>
     <body>
         <div id="interface">
             <header id="cabecalho">
@@ -16,15 +16,15 @@
                     <h2>A revolução do Google está chegando</h2>
                 </hgroup>
                 
-                <img id="icone"src="_imagens/glass-oculos-preto-peq.png" alt="">
+                <img id="icone"src="imagens/glass-oculos-preto-peq.png" alt="">
                 <nav id="menu">
                     <h1>Menu Principal</h1>
                     <ol>
-                        <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')" ><a href="index.html">Home</a></li>
-                        <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="specs.html">Especificações</a></li>
-                        <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fotos.html">Fotos</a></li>
-                        <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="multimidia.html">Multimídia</a></li>
-                        <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+                        <li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/glass-oculos-preto-peq.png')" ><a href="index.html">Home</a></li>
+                        <li onmouseover="mudaFoto('imagens/especificacoes.png')" onmouseout="mudaFoto('imagens/glass-oculos-preto-peq.png')"><a href="specs.html">Especificações</a></li>
+                        <li onmouseover="mudaFoto('imagens/fotos.png')" onmouseout="mudaFoto('imagens/glass-oculos-preto-peq.png')"><a href="fotos.html">Fotos</a></li>
+                        <li onmouseover="mudaFoto('imagens/multimidia.png')" onmouseout="mudaFoto('imagens/glass-oculos-preto-peq.png')"><a href="multimidia.html">Multimídia</a></li>
+                        <li onmouseover="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/glass-oculos-preto-peq.png')"><a href="fale-conosco.html">Fale conosco</a></li>
                     </ol>
                 </nav>
             </header>
@@ -44,7 +44,7 @@
                     <p>O Google Glass é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <a href="http://glass.google.com" target="_blank">Project Glass</a>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo&shy;conferências. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p>
 
                     <figure class="foto-legenda">
-                        <img src="_imagens/glass-quadro-homem-mulher.jpg"/>
+                        <img src="imagens/glass-quadro-homem-mulher.jpg"/>
                         <figcaption>
                             <h3>Google Glass</h3>
                             <p>Uma nova maneira de ver o mundo.</p>
@@ -73,7 +73,7 @@
 
                         <div>
                             <video id="one" controls="controls" poster="_imagens/video-mini01.jpg">
-                                <source src="_media/one-day.mp4" type="video/mp4"/>
+                                <source src="media/one-day.mp4" type="video/mp4"/>
                             </video>
                         </div>
                 </article>
@@ -84,7 +84,7 @@
 
                 <div>
                     <video id="filme" controls="controls" poster="_imagens/video-mini02.jpg">
-                        <source src="_media/how-it-feels.mp4" type="video/mp4"/>
+                        <source src="media/how-it-feels.mp4" type="video/mp4"/>
                     </video>
                 </div>
 
