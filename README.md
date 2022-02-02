@@ -1,4 +1,4 @@
-> # projeto-glass-html5
+>  # :heavy_check_mark:projeto-glass-html5
 >
 > ## Este projeto foi uma realização da plataforma Curso em Video.</br>
 > 
